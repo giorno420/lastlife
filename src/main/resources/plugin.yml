@@ -1,0 +1,14 @@
+name: LastLife
+version: '${project.version}'
+main: dev.giorno.lastlife.LivesMain
+api-version: 1.19
+authors: [ TheGiorno ]
+description: Die once, you come back stronger. Die twice, you're faster. Die thrice, and you're gone.
+website: https://giorno.is-a-good.dev
+commands:
+  getdeaths:
+    description: get deaths
+  reloadlivesconfig:
+    description: reload lives config
+    usage: /<command>
+depend: [LuckPerms]
